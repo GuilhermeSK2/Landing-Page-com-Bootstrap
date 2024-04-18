@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbarNav {
+    padding-left: 620px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler img {
+    width: 35px;
+}
+
+.navbar-brand img {
+    width: 90px;
+}
+
+.nav-link {
+    color: #783ee2 !important;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.wrapper {
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40px 2px rgba(143, 57, 255, 0.18);
+}
+
+.feature-box {
+    padding: 30px;
+}
+
+.feature-box h1 {
+    margin-top: 20%;
+    color: #783ee2;
+}
+
+.feature-box p {
+    margin: 50px auto;
+    color: #783ee2;
+}
+
+.feature-box a {
+    text-decoration: none !important;
+    background: #783ee2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 2px solid rgb(145, 76, 255) !important;
+    color: #fff;
+}
+
+.btn-One:hover {
+    color: #fff;
+}
+
+.btn-Two {
+    background: none !important;
+    color: #783ee2 !important;
+}
+
+.feature-img {
+    width: 100%;
+    padding: 40px;
+}
+
+.wave-img {
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 1%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+@media only screen and (max-width:990px) {
+    .wave-img {
+        display: none;
+    }
+
+    .feature-box a {
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
+}
